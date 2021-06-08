@@ -5,7 +5,6 @@ public class java16 {
 	public static void main(String[] args) {
 		for(int input=3;input<100;input++) {
 		int i=2;
-
 		boolean check=true;
 		while(i<=Math.sqrt(input)) {
 			if(input %i ==0) {
