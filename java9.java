@@ -3,13 +3,17 @@ import java.util.Scanner;
 public class java9 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		int tigia=23000;
-		System.out.print("nhap USD:");
-		Scanner sc=new Scanner(System.in);
-		int usd=sc.nextInt();
-		int out=usd*tigia;
-		System.out.println("usd=>vnd:"+out);
-}
-
+		int a = 5 > 7 ? 2 : 1; 
+		switch(a){ 
+		  case 1: 
+		    System.out.print("A"); 
+		  case 2: 
+		    System.out.print("B"); 
+		    break; 
+		  default: 
+		    System.out.print("C"); 
+		    break; 
+		} 
+		
+	}
 }
