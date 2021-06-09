@@ -3,7 +3,8 @@ import java.util.Scanner;
 public class java22 {
 
 	public static void main(String[] args) {
-		int[] arr= {1,3,5,7,9,2,6,8};
+		int[] arr=new int[];
+		arr[0]=1;
 		int[] arr1=new int[arr.length-1];
 		int n=9;
 		Scanner sc=new Scanner(System.in);
